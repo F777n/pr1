@@ -27,7 +27,6 @@ levels = {
     }
 }
 
-# Функция для отображения уровня
 def display_level(level):
     print(levels[level]["description"])
     print(levels[level]["puzzle"])
